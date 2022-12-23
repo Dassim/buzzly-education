@@ -1,0 +1,111 @@
+.container #info-contact::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: rgb(12, 143, 58);
+    margin: 1px auto;
+    display: block;
+}
+.nav-link{
+    color: antiquewhite;
+}
+.nav-link:hover{
+    color: rgb(47, 45, 42);
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+.main-services i{
+    font-size: 25px;
+    text-align: center;
+}
+.carousel-item img{
+    height: 400px;
+}
+.main-content img{
+    height: 300px;
+    width: 80%;
+}
+.box-medical i{
+    font-size: 36px;
+}
+.box-medical p{
+    font-size: 20px;
+}
+.box-medical h3::after{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: antiquewhite;
+    margin: 1px auto;
+    display: block;
+}
+.image-box img{
+    height: 200px;
+}
+.content-menu{
+    background-image: url(../images/radiology.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-body{
+    height: 60px;
+}
+.heart-icon{
+    color: aliceblue;
+    font-size: 18px;
+}
+.card-box:hover{
+    animation-name: animation;
+    box-shadow:0px 5px 0px 5px rgb(255, 0, 149);
+    background-color: rgb(91, 91, 129);
+    transition: all 2s;
+}
+.team-icon{
+    margin: 2px;
+}
+.team-icon a{
+    margin: 10px;
+    font-size: 20px;
+}
+.team-icon a:hover{
+    color: rgb(255, 0, 149);
+}
+.footer-cont-box{
+    color: azure;
+}
+.footer-cont-box h3{
+    font-size: 20px;
+    color: cadetblue;
+}
+.sidebar li{
+    list-style: none;
+    margin: 2px;
+}
+.sidebar li a{
+    text-decoration: none;
+    color: azure;
+}
+.sidebar li a:hover{
+    color: cadetblue;
+    transition: all .2s ease;
+    margin-left: 10px;
+}
+.group-list li{
+    list-style: none;
+}
+.group-list li a{
+    text-decoration: none;
+    color: azure;
+}
+.group-list li i{
+    margin: 5px;
+}
+.icones a{
+    color: azure;
+    margin: 5px;
+}
+.icones a i:hover{
+    color: salmon;
+    transition: all 1s ease;
+}
+
